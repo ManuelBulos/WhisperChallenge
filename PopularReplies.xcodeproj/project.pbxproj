@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0603E86C22C5977100F71671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E86B22C5977100F71671 /* AppDelegate.swift */; };
+		0603E87322C5977800F71671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0603E87222C5977800F71671 /* Assets.xcassets */; };
+		0603E87622C5977800F71671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0603E87422C5977800F71671 /* LaunchScreen.storyboard */; };
+		0603E88022C59C6B00F71671 /* WhisperListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E87E22C59C6B00F71671 /* WhisperListViewController.swift */; };
+		0603E88922C59D0D00F71671 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E88822C59D0D00F71671 /* AppController.swift */; };
+		0603E88F22C59F6B00F71671 /* WhisperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E88E22C59F6A00F71671 /* WhisperService.swift */; };
+		0603E89122C59F8500F71671 /* WhisperServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E89022C59F8500F71671 /* WhisperServiceProtocol.swift */; };
+		0603E89422C5A00C00F71671 /* Whisper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E89322C5A00C00F71671 /* Whisper.swift */; };
+		0603E89622C5A22900F71671 /* WhisperListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E89522C5A22900F71671 /* WhisperListPresenter.swift */; };
+		0603E89D22C5B59B00F71671 /* WhisperCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E89C22C5B59B00F71671 /* WhisperCollectionViewCell.swift */; };
+		0603E8A022C5D14B00F71671 /* PopularList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E89F22C5D14B00F71671 /* PopularList.swift */; };
+		0603E8A222C5D16100F71671 /* ReplyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E8A122C5D16100F71671 /* ReplyList.swift */; };
+		0603E8A822C6A05D00F71671 /* WhisperListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E8A722C6A05D00F71671 /* WhisperListPresenterProtocol.swift */; };
+		0603E8AA22C6A07900F71671 /* WhisperListPresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E8A922C6A07900F71671 /* WhisperListPresenterDelegate.swift */; };
+		0603E8AC22C6A7F800F71671 /* WhisperListViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E8AB22C6A7F800F71671 /* WhisperListViewController+CollectionView.swift */; };
+		0603E8AE22C6AD0A00F71671 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603E8AD22C6AD0A00F71671 /* UIView.swift */; };
+		06ADF783A47140816F95E140 /* Pods_PopularReplies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03237D69B148CAA082A1884 /* Pods_PopularReplies.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0603E86822C5977100F71671 /* PopularReplies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopularReplies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0603E86B22C5977100F71671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0603E87222C5977800F71671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0603E87522C5977800F71671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0603E87722C5977800F71671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0603E87E22C59C6B00F71671 /* WhisperListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperListViewController.swift; sourceTree = "<group>"; };
+		0603E88822C59D0D00F71671 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		0603E88E22C59F6A00F71671 /* WhisperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperService.swift; sourceTree = "<group>"; };
+		0603E89022C59F8500F71671 /* WhisperServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperServiceProtocol.swift; sourceTree = "<group>"; };
+		0603E89322C5A00C00F71671 /* Whisper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whisper.swift; sourceTree = "<group>"; };
+		0603E89522C5A22900F71671 /* WhisperListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperListPresenter.swift; sourceTree = "<group>"; };
+		0603E89C22C5B59B00F71671 /* WhisperCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperCollectionViewCell.swift; sourceTree = "<group>"; };
+		0603E89F22C5D14B00F71671 /* PopularList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularList.swift; sourceTree = "<group>"; };
+		0603E8A122C5D16100F71671 /* ReplyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyList.swift; sourceTree = "<group>"; };
+		0603E8A722C6A05D00F71671 /* WhisperListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperListPresenterProtocol.swift; sourceTree = "<group>"; };
+		0603E8A922C6A07900F71671 /* WhisperListPresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperListPresenterDelegate.swift; sourceTree = "<group>"; };
+		0603E8AB22C6A7F800F71671 /* WhisperListViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhisperListViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		0603E8AD22C6AD0A00F71671 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		80CC182F316E34F3BAEA6B9C /* Pods-PopularReplies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopularReplies.debug.xcconfig"; path = "Target Support Files/Pods-PopularReplies/Pods-PopularReplies.debug.xcconfig"; sourceTree = "<group>"; };
+		C239AF3B53F1549DAE92E515 /* Pods-PopularReplies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopularReplies.release.xcconfig"; path = "Target Support Files/Pods-PopularReplies/Pods-PopularReplies.release.xcconfig"; sourceTree = "<group>"; };
+		E03237D69B148CAA082A1884 /* Pods_PopularReplies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopularReplies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0603E86522C5977100F71671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ADF783A47140816F95E140 /* Pods_PopularReplies.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0603E85F22C5977100F71671 = {
+			isa = PBXGroup;
+			children = (
+				0603E86A22C5977100F71671 /* PopularReplies */,
+				0603E86922C5977100F71671 /* Products */,
+				D690882321EEC66CB910987A /* Pods */,
+				CE90BF4AC73B02BCAE798617 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0603E86922C5977100F71671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0603E86822C5977100F71671 /* PopularReplies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0603E86A22C5977100F71671 /* PopularReplies */ = {
+			isa = PBXGroup;
+			children = (
+				0603E88B22C59E6D00F71671 /* Application */,
+				0603E87D22C59C3700F71671 /* Controllers */,
+				0603E88C22C59F1E00F71671 /* Extensions */,
+				0603E88A22C59E6000F71671 /* Resources */,
+			);
+			path = PopularReplies;
+			sourceTree = "<group>";
+		};
+		0603E87D22C59C3700F71671 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0603E8B122C7304000F71671 /* AppController */,
+				0603E88222C59C6F00F71671 /* WhisperListController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0603E88222C59C6F00F71671 /* WhisperListController */ = {
+			isa = PBXGroup;
+			children = (
+				0603E89222C59FE900F71671 /* Model */,
+				0603E8B022C72E8E00F71671 /* View */,
+				0603E8AF22C72E7C00F71671 /* Presenter */,
+				0603E88D22C59F5000F71671 /* Service */,
+			);
+			path = WhisperListController;
+			sourceTree = "<group>";
+		};
+		0603E88A22C59E6000F71671 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0603E87222C5977800F71671 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0603E88B22C59E6D00F71671 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0603E87722C5977800F71671 /* Info.plist */,
+				0603E86B22C5977100F71671 /* AppDelegate.swift */,
+				0603E87422C5977800F71671 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0603E88C22C59F1E00F71671 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0603E8AD22C6AD0A00F71671 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0603E88D22C59F5000F71671 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0603E88E22C59F6A00F71671 /* WhisperService.swift */,
+				0603E89022C59F8500F71671 /* WhisperServiceProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0603E89222C59FE900F71671 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0603E89322C5A00C00F71671 /* Whisper.swift */,
+				0603E89F22C5D14B00F71671 /* PopularList.swift */,
+				0603E8A122C5D16100F71671 /* ReplyList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0603E8AF22C72E7C00F71671 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0603E89522C5A22900F71671 /* WhisperListPresenter.swift */,
+				0603E8A722C6A05D00F71671 /* WhisperListPresenterProtocol.swift */,
+				0603E8A922C6A07900F71671 /* WhisperListPresenterDelegate.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0603E8B022C72E8E00F71671 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0603E89C22C5B59B00F71671 /* WhisperCollectionViewCell.swift */,
+				0603E87E22C59C6B00F71671 /* WhisperListViewController.swift */,
+				0603E8AB22C6A7F800F71671 /* WhisperListViewController+CollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0603E8B122C7304000F71671 /* AppController */ = {
+			isa = PBXGroup;
+			children = (
+				0603E88822C59D0D00F71671 /* AppController.swift */,
+			);
+			path = AppController;
+			sourceTree = "<group>";
+		};
+		CE90BF4AC73B02BCAE798617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03237D69B148CAA082A1884 /* Pods_PopularReplies.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D690882321EEC66CB910987A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80CC182F316E34F3BAEA6B9C /* Pods-PopularReplies.debug.xcconfig */,
+				C239AF3B53F1549DAE92E515 /* Pods-PopularReplies.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0603E86722C5977100F71671 /* PopularReplies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0603E87A22C5977800F71671 /* Build configuration list for PBXNativeTarget "PopularReplies" */;
+			buildPhases = (
+				F9916626E0013008AB631014 /* [CP] Check Pods Manifest.lock */,
+				0603E86422C5977100F71671 /* Sources */,
+				0603E86522C5977100F71671 /* Frameworks */,
+				0603E86622C5977100F71671 /* Resources */,
+				D0E3A4D98BCC08E19C89B298 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopularReplies;
+			productName = PopularReplies;
+			productReference = 0603E86822C5977100F71671 /* PopularReplies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0603E86022C5977100F71671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = manuelbulos;
+				TargetAttributes = {
+					0603E86722C5977100F71671 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0603E86322C5977100F71671 /* Build configuration list for PBXProject "PopularReplies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0603E85F22C5977100F71671;
+			productRefGroup = 0603E86922C5977100F71671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0603E86722C5977100F71671 /* PopularReplies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0603E86622C5977100F71671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0603E87622C5977800F71671 /* LaunchScreen.storyboard in Resources */,
+				0603E87322C5977800F71671 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0E3A4D98BCC08E19C89B298 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopularReplies/Pods-PopularReplies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopularReplies/Pods-PopularReplies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopularReplies/Pods-PopularReplies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9916626E0013008AB631014 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopularReplies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0603E86422C5977100F71671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0603E8AE22C6AD0A00F71671 /* UIView.swift in Sources */,
+				0603E88F22C59F6B00F71671 /* WhisperService.swift in Sources */,
+				0603E88022C59C6B00F71671 /* WhisperListViewController.swift in Sources */,
+				0603E89122C59F8500F71671 /* WhisperServiceProtocol.swift in Sources */,
+				0603E89422C5A00C00F71671 /* Whisper.swift in Sources */,
+				0603E8A822C6A05D00F71671 /* WhisperListPresenterProtocol.swift in Sources */,
+				0603E89622C5A22900F71671 /* WhisperListPresenter.swift in Sources */,
+				0603E8AA22C6A07900F71671 /* WhisperListPresenterDelegate.swift in Sources */,
+				0603E8A222C5D16100F71671 /* ReplyList.swift in Sources */,
+				0603E88922C59D0D00F71671 /* AppController.swift in Sources */,
+				0603E86C22C5977100F71671 /* AppDelegate.swift in Sources */,
+				0603E89D22C5B59B00F71671 /* WhisperCollectionViewCell.swift in Sources */,
+				0603E8AC22C6A7F800F71671 /* WhisperListViewController+CollectionView.swift in Sources */,
+				0603E8A022C5D14B00F71671 /* PopularList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0603E87422C5977800F71671 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0603E87522C5977800F71671 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0603E87822C5977800F71671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0603E87922C5977800F71671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0603E87B22C5977800F71671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CC182F316E34F3BAEA6B9C /* Pods-PopularReplies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9X4WQFDTP;
+				INFOPLIST_FILE = "$(SRCROOT)/PopularReplies/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = manuelbulos.PopularReplies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0603E87C22C5977800F71671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C239AF3B53F1549DAE92E515 /* Pods-PopularReplies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9X4WQFDTP;
+				INFOPLIST_FILE = "$(SRCROOT)/PopularReplies/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = manuelbulos.PopularReplies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0603E86322C5977100F71671 /* Build configuration list for PBXProject "PopularReplies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0603E87822C5977800F71671 /* Debug */,
+				0603E87922C5977800F71671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0603E87A22C5977800F71671 /* Build configuration list for PBXNativeTarget "PopularReplies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0603E87B22C5977800F71671 /* Debug */,
+				0603E87C22C5977800F71671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0603E86022C5977100F71671 /* Project object */;
+}
